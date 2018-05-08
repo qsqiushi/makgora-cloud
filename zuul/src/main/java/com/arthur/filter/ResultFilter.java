@@ -1,15 +1,12 @@
-package com.lovnx.filter;
+package com.arthur.filter;
 
-import com.netflix.zuul.ZuulFilter;
-import com.netflix.zuul.context.RequestContext;
-
-import io.reactivex.netty.protocol.http.server.HttpServerResponse;
+import javax.servlet.http.HttpServletRequest;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import com.netflix.zuul.ZuulFilter;
+import com.netflix.zuul.context.RequestContext;
 
 public class ResultFilter extends ZuulFilter  {
 
