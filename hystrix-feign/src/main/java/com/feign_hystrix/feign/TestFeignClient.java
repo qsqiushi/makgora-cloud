@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.feign_hystrix.feign.TestFeignClient.HystrixClientFallback;
 
 
-@FeignClient(name = "service-B",fallback = HystrixClientFallback.class)
+@FeignClient(name = "service-A",fallback = HystrixClientFallback.class)
 public interface TestFeignClient {
 	
   @RequestMapping("/add")
