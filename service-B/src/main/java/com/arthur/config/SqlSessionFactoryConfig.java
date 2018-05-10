@@ -31,8 +31,6 @@ public class SqlSessionFactoryConfig implements TransactionManagementConfigurer 
      * 并且设置configtion 如驼峰命名.等等
      * 设置mapper 映射路径
      * 设置datasource数据源
-     * @return
-     * @throws Exception
      */
     @Bean(name = "sqlSessionFactory")
     public SqlSessionFactory createSqlSessionFactoryBean() throws Exception {

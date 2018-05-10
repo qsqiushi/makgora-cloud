@@ -14,12 +14,12 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class ComputeController {
 
-  private final Logger logger = Logger.getLogger(getClass());
+    private final Logger logger = Logger.getLogger(getClass());
 
     @Autowired
     private DiscoveryClient client;
 
-    @RequestMapping(value = "/add" ,method = RequestMethod.GET)
+    @RequestMapping(value = "/add", method = RequestMethod.GET)
     public String add(@RequestParam Integer a, @RequestParam Integer b) {
         ServiceInstance instance = client.getLocalServiceInstance();
         Integer r = a + b;
@@ -28,10 +28,10 @@ public class ComputeController {
     }
 
     //A服务调用B服务
-    @RequestMapping(value="testServiceB",method=RequestMethod.GET)
-    public String testServiceB(@RequestParam Integer a,@RequestParam Integer b){
-    	RestTemplate restTemplate=new RestTemplate();
-    	return restTemplate.getForObject("http://localhost:7075/add?a="+a+"&b="+b, String.class);
+    @RequestMapping(value = "testServiceB", method = RequestMethod.GET)
+    public String testServiceB(@RequestParam Integer a, @RequestParam Integer b) {
+        RestTemplate restTemplate = new RestTemplate();
+        return restTemplate.getForObject("http://localhost:7075/add?a=" + a + "&b=" + b, String.class);
     }
-    
+
 }

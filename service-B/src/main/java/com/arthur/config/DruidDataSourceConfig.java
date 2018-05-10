@@ -1,6 +1,7 @@
 package com.arthur.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,8 +10,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 
-import javax.sql.DataSource;
 import java.sql.SQLException;
+
+import javax.sql.DataSource;
 
 @Configuration
 @EnableConfigurationProperties(DataSourceProperties.class)
@@ -23,7 +25,7 @@ public class DruidDataSourceConfig {
 
     @Bean
     @Primary
-    public DataSource druidDataSource(){
+    public DataSource druidDataSource() {
         DruidDataSource datasource = new DruidDataSource();
 
         datasource.setUrl(dataSourceProperties.getUrl());

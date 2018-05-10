@@ -5,7 +5,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties(prefix = DataSourceProperties.DS, ignoreUnknownFields = false)
 public class DataSourceProperties {
     //对应配置文件里的配置键
-    final static String DS="mysqldb.datasource";
+    final static String DS = "mysqldb.datasource";
 
     private String url;
     private String username;

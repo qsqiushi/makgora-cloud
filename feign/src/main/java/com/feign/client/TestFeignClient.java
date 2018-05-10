@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 @FeignClient(name = "SERVICE-A")
 public interface TestFeignClient {
 
-  @RequestMapping("/add")
-  public String add(@RequestParam("a") Integer a, @RequestParam("b") Integer b);
+    @RequestMapping("/add")
+    public String add(@RequestParam("a") Integer a, @RequestParam("b") Integer b);
 }

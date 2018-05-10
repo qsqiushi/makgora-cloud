@@ -8,12 +8,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class FeignController {
-  @Autowired
-  private TestFeignClient testFeignClient;
+    @Autowired
+    private TestFeignClient testFeignClient;
 
-  @RequestMapping(value = "/add" , method = RequestMethod.GET)
-  public String add(@RequestParam("a") Integer a,@RequestParam("b") Integer b) {
-    String string = this.testFeignClient.add(a,b);
-    return string;
-  }
+    @RequestMapping(value = "/add", method = RequestMethod.GET)
+    public String add(@RequestParam("a") Integer a, @RequestParam("b") Integer b) {
+        String string = this.testFeignClient.add(a, b);
+        return string;
+    }
 }

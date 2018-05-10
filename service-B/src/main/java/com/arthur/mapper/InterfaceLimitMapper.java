@@ -2,8 +2,10 @@ package com.arthur.mapper;
 
 import com.arthur.entity.InterfaceLimit;
 import com.arthur.entity.InterfaceLimitExample;
-import java.util.List;
+
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface InterfaceLimitMapper {
     int countByExample(InterfaceLimitExample example);

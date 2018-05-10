@@ -2,39 +2,46 @@ package com.arthur.web;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.stereotype.Component;
+
+import java.util.concurrent.locks.ReentrantLock;
 
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 
-import java.io.InputStream;
-import java.util.Properties;
-import java.util.concurrent.locks.ReentrantLock;
-
 public class RedisUtils {
 
-    private static ReentrantLock lockPool = new ReentrantLock();
-
     private static final Logger LOGGER = LoggerFactory.getLogger(RedisUtils.class);
-
-    /** Jedis连接池 */
+    private static ReentrantLock lockPool = new ReentrantLock();
+    /**
+     * Jedis连接池
+     */
     private static JedisPool jedisPool = null;
 
-    /** Redis服务器IP */
-    private static String host="172.16.16.72";
-    /** Redis的端口号 */
-    private static int port=6379;
-    /** 访问密码 */
-    private static String password="lemonkz9*l";
-    /** 超时时间 */
-    private static int timeout=10000;
+    /**
+     * Redis服务器IP
+     */
+    private static String host = "172.16.16.72";
+    /**
+     * Redis的端口号
+     */
+    private static int port = 6379;
+    /**
+     * 访问密码
+     */
+    private static String password = "lemonkz9*l";
+    /**
+     * 超时时间
+     */
+    private static int timeout = 10000;
     /**
      * 可用连接实例的最大数目，默认值为8
      * 如果赋值为-1，则表示不限制；如果pool已经分配了maxActive个jedis实例，则此时pool的状态为exhausted(耗尽)。
      */
     private static int maxTotal = 1024;
-    /** 控制一个pool最多有多少个状态为idle(空闲的)的Jedis实例，默认值为8 */
+    /**
+     * 控制一个pool最多有多少个状态为idle(空闲的)的Jedis实例，默认值为8
+     */
     private static int maxIdle = 200;
     /**
      * 等待可用连接的最大时间，单位毫秒，默认值为-1，表示永不超时
@@ -78,10 +85,10 @@ public class RedisUtils {
     /**
      * 初始化Redis连接池
      */
-    private static void initialPool(){
+    private static void initialPool() {
         lockPool.lock();
         try {
-            if(jedisPool == null) {
+            if (jedisPool == null) {
                 JedisPoolConfig config = new JedisPoolConfig();
                 config.setMaxTotal(maxTotal);
                 config.setMaxIdle(maxIdle);
@@ -101,13 +108,13 @@ public class RedisUtils {
      * 设置系统停止时需执行的任务
      */
     private static void setShutdownWork() {
-        try{
+        try {
             Runtime runtime = Runtime.getRuntime();
-            runtime.addShutdownHook(new Thread(){
+            runtime.addShutdownHook(new Thread() {
                 @Override
                 public void run() {
                     try {
-                        if(jedisPool != null) {
+                        if (jedisPool != null) {
                             jedisPool.destroy();
                             jedisPool = null;
                             LOGGER.info("关闭Redis Pool成功.");
@@ -125,6 +132,7 @@ public class RedisUtils {
 
     /**
      * 从连接池中获取Jedis实例
+     *
      * @return Jedis Jedis实例
      */
     public static Jedis getJedis() {
