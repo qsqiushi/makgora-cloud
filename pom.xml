@@ -23,6 +23,7 @@
         <module>service-admin</module>
         <module>sleuth</module>
         <module>web</module>
+        <module>service-netty</module>
     </modules>
     <packaging>pom</packaging>
     <name>makgora</name>
