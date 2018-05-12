@@ -39,6 +39,7 @@ public class NettyConfig {
     private StringProtocolInitalizer protocolInitalizer;
     //bootstrap配置
 
+    @SuppressWarnings("unchecked")
     @Bean(name = "serverBootstrap")
     public ServerBootstrap bootstrap() {
         ServerBootstrap b = new ServerBootstrap();
