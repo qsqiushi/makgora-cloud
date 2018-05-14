@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
 <generatorConfiguration>
-	<classPathEntry location="D:\mysql-connector-java-5.1.30.jar" />
+	<classPathEntry location="/Users/qiushiqiushi/Downloads/mysql-connector-java-5.1.46.jar" />
 	<context id="context1">
-		<plugin type="psnl.garfield.common.MySqlPaginationPlugin" />
+		<plugin type="com.arthur.plugins.MySqlPaginationPlugin" />
 		<commentGenerator>
        	 	<property name="suppressDate" value="true"/>
        		 <property name="suppressAllComments" value="true" />
    		 </commentGenerator>
 		<jdbcConnection driverClass="com.mysql.jdbc.Driver"
-			connectionURL="jdbc:mysql://localhost:3306/garfield" userId="root"
-			password="root" />
-		<javaModelGenerator targetPackage="psnl.garfield.sys.po" targetProject="garfieldJar" >
-			<property name="rootClass" value="psnl.garfield.base.domain.BasePo"/>
+			connectionURL="jdbc:mysql://localhost:3306/makgora" userId="root"
+			password="" />
+		<javaModelGenerator targetPackage="com.arthur.sys.domain" targetProject="service-sys" >
+			<property name="rootClass" value="com.arthur.base.domain.BasePo"/>
 		</javaModelGenerator>
-		<sqlMapGenerator targetPackage="psnl.garfield.sys.domain.sqlMappers" targetProject="garfieldJar" />
-		<javaClientGenerator targetPackage="psnl.garfield.sys.mapper" targetProject="garfieldJar" type="XMLMAPPER" />
+		<sqlMapGenerator targetPackage="com.arthur.sys.domain.sqlMappers" targetProject="service-sys" />
+		<javaClientGenerator targetPackage="com.arthur.sys.mapper" targetProject="service-sys" type="XMLMAPPER" />
 
-		<table schema="" tableName="sys_constant" 		domainObjectName="Constant"></table>
-		<table schema="" tableName="sys_enum" 			domainObjectName="Enumeration"></table>
- 		<table schema="" tableName="sys_enum_value" 	domainObjectName="EnumValue"></table>
-		<table schema="" tableName="sys_log" 			domainObjectName="SysLog"></table>
-		<table schema="" tableName="sys_login_log" 		domainObjectName="LoginLog"></table>
-		<table schema="" tableName="sys_menu" 			domainObjectName="Menu"></table>
-		<table schema="" tableName="sys_power" 			domainObjectName="Power"></table>
-		<table schema="" tableName="sys_power_resource" domainObjectName="PowerResource"></table>
-		<table schema="" tableName="sys_resource" 		domainObjectName="Resource"></table>
-		<table schema="" tableName="sys_role" 			domainObjectName="Role"></table>
-		<table schema="" tableName="sys_role_power" 	domainObjectName="RolePower"></table> 
-		<table schema="" tableName="sys_user" 			domainObjectName="SysUser"></table>
-		<table schema="" tableName="sys_user_role" 		domainObjectName="UserRole"></table>
-		<table schema="" tableName="sys_ws_log" 		domainObjectName="WsLog"></table> 
+		<table schema="" tableName="t_sys_constant" 		domainObjectName="Constant"></table>
+		<table schema="" tableName="t_sys_enum" 			domainObjectName="Enumeration"></table>
+ 		<table schema="" tableName="t_sys_enum_value" 	domainObjectName="EnumValue"></table>
+		<table schema="" tableName="t_sys_log" 			domainObjectName="SysLog"></table>
+		<table schema="" tableName="t_sys_login_log" 		domainObjectName="LoginLog"></table>
+		<table schema="" tableName="t_sys_menu" 			domainObjectName="Menu"></table>
+		<table schema="" tableName="t_sys_power" 			domainObjectName="Power"></table>
+		<table schema="" tableName="t_sys_power_resource" domainObjectName="PowerResource"></table>
+		<table schema="" tableName="t_sys_resource" 		domainObjectName="Resource"></table>
+		<table schema="" tableName="t_sys_role" 			domainObjectName="Role"></table>
+		<table schema="" tableName="t_sys_role_power" 	domainObjectName="RolePower"></table> 
+		<table schema="" tableName="t_sys_login_user" 			domainObjectName="LoginUser"></table>
+		<table schema="" tableName="t_sys_user_role" 		domainObjectName="UserRole"></table>
+		<table schema="" tableName="t_sys_ws_log" 		domainObjectName="WsLog"></table> 
 	</context>
 </generatorConfiguration>
 
