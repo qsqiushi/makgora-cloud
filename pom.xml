@@ -25,6 +25,7 @@
 		<module>web</module>
 		<module>service-netty</module>
 		<module>base-common</module>
+		<module>base-sys</module>
 	</modules>
 	<packaging>pom</packaging>
 	<name>makgora</name>
