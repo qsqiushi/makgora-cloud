@@ -85,6 +85,9 @@ public class MyBatisBean {
     @Value("${jdbc.mysql.connectionProperties}")
     private String connectionProperties;
 
+    @Value("${jdbc.mysql.logAbandoned}")
+    private boolean logAbandoned;
+
     @Bean(name = "dataSource")
     @Primary
     public DataSource testDataSource() {
@@ -101,6 +104,7 @@ public class MyBatisBean {
         datasource.setMinIdle(minIdle);
         datasource.setMaxActive(maxActive);
         datasource.setMaxWait(maxWait);
+        datasource.setLogAbandoned(this.logAbandoned);
         datasource.setTimeBetweenEvictionRunsMillis(timeBetweenEvictionRunsMillis);
         datasource.setMinEvictableIdleTimeMillis(minEvictableIdleTimeMillis);
         datasource.setValidationQuery(validationQuery);
