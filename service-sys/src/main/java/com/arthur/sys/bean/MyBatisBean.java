@@ -148,7 +148,7 @@ public class MyBatisBean {
     @Bean(name = "mySqlSessionTemplate")
     @Primary
     public SqlSessionTemplate testSqlSessionTemplate(
-            @Qualifier("mySqlSessionFactory") SqlSessionFactory sqlSessionFactory) throws Exception {
+            @Qualifier("mySqlSessionFactory") SqlSessionFactory sqlSessionFactory){
         return new SqlSessionTemplate(sqlSessionFactory);
     }
     
