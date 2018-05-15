@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import com.arthur.sys.domain.ConstantExample;
 import com.arthur.sys.mapper.ConstantMapper;
 import com.arthur.sys.properties.ConfigProperties;
 
@@ -23,7 +24,7 @@ public class ServiceTest {
     System.out.println(constantMapper==null);
     System.out.println(configProperties==null);
     System.out.println(configProperties.getUrl());
-    
+    System.out.println(constantMapper.countByExample(new ConstantExample()));
   }
 
 }

@@ -2,6 +2,7 @@ package com.arthur.sys.bean;
 
 import javax.sql.DataSource;
 
+import org.apache.ibatis.plugin.Interceptor;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.log4j.Logger;
 import org.mybatis.spring.SqlSessionFactoryBean;
@@ -17,6 +18,7 @@ import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.fastjson.JSON;
+import com.arthur.plugins.SqlInterceptor;
 
 @Configuration
 @MapperScan(basePackages = "com.arthur.**.mapper", sqlSessionTemplateRef = "mySqlSessionTemplate")
@@ -135,6 +137,9 @@ public class MyBatisBean {
         bean.setDataSource(dataSource);
         bean.setMapperLocations(new PathMatchingResourcePatternResolver()
                 .getResources("classpath:mybatis_sql_config/mybatis_sql_*/*.xml"));
+        //设置mybatis插件
+        Interceptor[] interceptors= {new SqlInterceptor()};
+        bean.setPlugins(interceptors);
         return bean.getObject();
     }
 
