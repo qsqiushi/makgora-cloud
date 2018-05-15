@@ -26,6 +26,7 @@
 		<module>service-netty</module>
 		<module>base-common</module>
 		<module>base-sys</module>
+		<module>service-sys</module>
 	</modules>
 	<packaging>pom</packaging>
 	<name>makgora</name>
@@ -54,6 +55,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<optional>true</optional>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->

@@ -14,7 +14,7 @@ import com.arthur.sys.mapper.ConstantMapper;
 @Transactional
 public class ConstantServiceImpl implements BaseService<Constant, ConstantExample> {
 
-  //@Autowired
+  @Autowired
   private ConstantMapper constantMapper;
 
   @Override

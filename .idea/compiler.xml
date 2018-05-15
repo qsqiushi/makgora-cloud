@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="base-common" />
+        <module name="base-sys" />
         <module name="config-server" />
         <module name="eureka-server" />
         <module name="feign" />
@@ -19,6 +20,7 @@
         <module name="service-B" />
         <module name="service-B2" />
         <module name="service-netty" />
+        <module name="service-sys" />
         <module name="sleuth" />
         <module name="turbine" />
         <module name="web" />
@@ -27,7 +29,6 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eurekaserver" target="1.8" />
-      <module name="service-sys" target="1.8" />
       <module name="web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
