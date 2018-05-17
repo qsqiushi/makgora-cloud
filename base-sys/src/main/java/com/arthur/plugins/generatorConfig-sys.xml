@@ -17,7 +17,7 @@
 		<sqlMapGenerator targetPackage="com.arthur.sys.domain.sqlMappers" targetProject="service-sys" />
 		<javaClientGenerator targetPackage="com.arthur.sys.mapper" targetProject="service-sys" type="XMLMAPPER" />
 
-		<table schema="" tableName="t_sys_constant" 		domainObjectName="Constant"></table>
+		<!-- <table schema="" tableName="t_sys_constant" 		domainObjectName="Constant"></table>
 		<table schema="" tableName="t_sys_enum" 			domainObjectName="Enumeration"></table>
  		<table schema="" tableName="t_sys_enum_value" 	domainObjectName="EnumValue"></table>
 		<table schema="" tableName="t_sys_log" 			domainObjectName="SysLog"></table>
@@ -30,7 +30,8 @@
 		<table schema="" tableName="t_sys_role_power" 	domainObjectName="RolePower"></table> 
 		<table schema="" tableName="t_sys_login_user" 			domainObjectName="LoginUser"></table>
 		<table schema="" tableName="t_sys_user_role" 		domainObjectName="UserRole"></table>
-		<table schema="" tableName="t_sys_ws_log" 		domainObjectName="WsLog"></table> 
+		<table schema="" tableName="t_sys_ws_log" 		domainObjectName="WsLog"></table>  -->
+		<table schema="" tableName="t_sys_tickets64" 		domainObjectName="t_sys_tickets64"></table> 
 	</context>
 </generatorConfiguration>
 

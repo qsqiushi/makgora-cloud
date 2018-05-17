@@ -22,7 +22,7 @@ import com.arthur.plugins.SqlInterceptor;
 
 @Configuration
 @MapperScan(basePackages = "com.arthur.**.mapper", sqlSessionTemplateRef = "mySqlSessionTemplate")
-public class MyBatisBean {
+public class MyBatisAutoConfiguration {
 
 
     private final Logger logger = Logger.getLogger(getClass());
