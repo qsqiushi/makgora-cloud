@@ -476,3 +476,345 @@
 				-Running the evict task with compensationTime 2ms
 2018-05-17 15:20:24.296 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
 				-Running the evict task with compensationTime 3ms
+2018-05-17 15:21:24.297 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2018-05-17 15:22:24.301 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2018-05-17 15:23:24.302 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2018-05-17 15:24:24.305 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 15:25:24.307 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 15:26:24.308 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2018-05-17 15:27:24.312 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2018-05-17 15:28:24.315 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 15:29:22.553 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl
+				-Current renewal threshold is : 3
+2018-05-17 15:29:24.316 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2018-05-17 15:30:24.317 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2018-05-17 15:31:24.321 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2018-05-17 15:32:24.322 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2018-05-17 15:33:24.322 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2018-05-17 15:34:24.326 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2018-05-17 15:35:24.329 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 15:36:24.331 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 15:37:24.335 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2018-05-17 15:38:24.340 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 5ms
+2018-05-17 15:39:24.346 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 4ms
+2018-05-17 15:40:24.351 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 5ms
+2018-05-17 15:41:24.355 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2018-05-17 15:42:24.360 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 5ms
+2018-05-17 15:43:24.361 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2018-05-17 15:44:22.561 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl
+				-Current renewal threshold is : 3
+2018-05-17 15:44:24.367 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 5ms
+2018-05-17 15:45:24.371 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 4ms
+2018-05-17 15:46:24.378 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 15:47:24.381 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 15:48:24.387 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 5ms
+2018-05-17 15:49:24.391 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2018-05-17 15:50:24.393 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 1ms
+2018-05-17 15:51:24.399 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 5ms
+2018-05-17 15:52:24.402 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 15:53:24.405 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 15:54:24.407 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 15:55:24.411 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2018-05-17 15:56:24.416 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 5ms
+2018-05-17 15:57:24.419 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 15:58:24.423 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2018-05-17 15:59:22.574 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl
+				-Current renewal threshold is : 3
+2018-05-17 15:59:24.424 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2018-05-17 16:00:24.428 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2018-05-17 16:01:24.429 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2018-05-17 16:02:24.430 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2018-05-17 16:03:24.431 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2018-05-17 16:04:24.430 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 9ms
+2018-05-17 16:05:24.432 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 16:15:10.102 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 8ms
+2018-05-17 16:16:10.103 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 1ms
+2018-05-17 16:17:10.106 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 16:18:10.108 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 1ms
+2018-05-17 16:19:10.111 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 16:20:10.115 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2018-05-17 16:21:10.116 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 1ms
+2018-05-17 16:22:10.121 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 4ms
+2018-05-17 16:23:08.233 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl
+				-Current renewal threshold is : 3
+2018-05-17 16:23:10.126 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 4ms
+2018-05-17 16:24:10.128 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 16:25:10.133 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 4ms
+2018-05-17 16:26:10.135 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 1ms
+2018-05-17 16:27:10.138 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 16:28:10.144 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 5ms
+2018-05-17 16:29:10.145 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 1ms
+2018-05-17 16:30:10.151 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2018-05-17 16:31:10.155 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2018-05-17 16:32:10.159 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 4ms
+2018-05-17 16:33:10.161 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 1ms
+2018-05-17 16:34:10.162 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 1ms
+2018-05-17 16:35:10.167 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 5ms
+2018-05-17 16:36:10.169 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 1ms
+2018-05-17 16:37:10.170 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2018-05-17 16:38:08.242 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl
+				-Current renewal threshold is : 3
+2018-05-17 16:38:10.175 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 4ms
+2018-05-17 16:39:10.179 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 4ms
+2018-05-17 16:40:10.179 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2018-05-17 16:41:10.184 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2018-05-17 16:42:10.187 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 16:43:10.190 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 16:44:10.191 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 1ms
+2018-05-17 16:45:10.195 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2018-05-17 16:46:10.196 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 16:47:10.197 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 7ms
+2018-05-17 16:48:10.199 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 1ms
+2018-05-17 16:49:10.203 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2018-05-17 16:50:10.203 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2018-05-17 16:51:10.205 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 16:52:10.206 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2018-05-17 16:53:08.243 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl
+				-Current renewal threshold is : 3
+2018-05-17 16:53:10.210 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2018-05-17 16:54:10.214 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2018-05-17 16:55:10.215 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 1ms
+2018-05-17 16:56:10.219 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2018-05-17 16:57:10.222 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 16:58:10.224 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 1ms
+2018-05-17 16:59:10.226 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 17:00:10.230 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2018-05-17 17:01:10.231 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 1ms
+2018-05-17 17:02:10.232 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2018-05-17 17:03:10.236 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 4ms
+2018-05-17 17:07:20.247 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 9ms
+2018-05-17 17:08:20.248 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2018-05-17 17:09:20.250 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 17:10:20.253 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2018-05-17 17:11:18.248 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl
+				-Current renewal threshold is : 3
+2018-05-17 17:11:20.256 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 17:12:20.257 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2018-05-17 17:13:20.262 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 5ms
+2018-05-17 17:14:20.262 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2018-05-17 17:15:20.265 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 17:16:20.269 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 4ms
+2018-05-17 17:17:20.274 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 4ms
+2018-05-17 17:18:20.279 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 4ms
+2018-05-17 17:19:20.280 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 1ms
+2018-05-17 17:20:20.285 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 4ms
+2018-05-17 17:21:20.289 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 4ms
+2018-05-17 17:22:20.290 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 20ms
+2018-05-17 17:23:20.291 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 6ms
+2018-05-17 17:24:20.294 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2018-05-17 17:25:20.299 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 4ms
+2018-05-17 17:26:18.249 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl
+				-Current renewal threshold is : 3
+2018-05-17 17:26:20.302 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 17:27:20.307 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 5ms
+2018-05-17 17:28:20.311 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2018-05-17 17:29:20.314 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 17:30:20.318 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 4ms
+2018-05-17 17:31:20.323 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 5ms
+2018-05-17 17:32:20.325 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 1ms
+2018-05-17 17:33:20.328 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2018-05-17 17:34:20.333 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 4ms
+2018-05-17 17:35:20.336 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 17:36:20.341 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 5ms
+2018-05-17 17:37:20.345 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 4ms
+2018-05-17 17:38:20.348 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 17:39:20.348 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2018-05-17 17:40:20.352 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 4ms
+2018-05-17 17:41:18.259 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl
+				-Current renewal threshold is : 3
+2018-05-17 17:41:20.357 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 1ms
+2018-05-17 17:42:20.360 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2018-05-17 17:43:20.360 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2018-05-17 17:44:20.365 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 4ms
+2018-05-17 17:45:20.367 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 17:46:20.370 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 17:47:20.371 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2018-05-17 17:48:20.374 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2018-05-17 17:49:20.379 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 4ms
+2018-05-17 17:50:20.384 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 4ms
+2018-05-17 17:51:20.386 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 17:52:20.389 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 17:53:20.389 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2018-05-17 17:54:20.393 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 4ms
+2018-05-17 17:55:20.394 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2018-05-17 17:56:18.259 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl
+				-Current renewal threshold is : 3
+2018-05-17 17:56:20.395 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 0ms
+2018-05-17 17:57:20.399 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 4ms
+2018-05-17 17:58:20.403 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 4ms
+2018-05-17 17:59:20.406 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 3ms
+2018-05-17 18:00:20.409 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 18:01:20.415 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 5ms
+2018-05-17 18:02:20.418 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry
+				-Running the evict task with compensationTime 2ms
+2018-05-17 18:02:33.000 [Thread-13] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext
+				-Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2826f61: startup date [Thu May 17 13:57:31 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4f83df68
+2018-05-17 18:02:33.006 [Thread-13] INFO  o.s.c.n.e.EurekaDiscoveryClientConfiguration
+				-Unregistering application eureka-server with eureka with status DOWN
+2018-05-17 18:02:33.008 [Thread-13] INFO  c.netflix.discovery.DiscoveryClient
+				-Shutting down DiscoveryClient ...
+2018-05-17 18:02:33.008 [Thread-13] INFO  c.netflix.discovery.DiscoveryClient
+				-Completed shut down of DiscoveryClient
+2018-05-17 18:02:33.017 [Thread-13] INFO  o.s.c.s.DefaultLifecycleProcessor
+				-Stopping beans in phase 0
+2018-05-17 18:02:33.027 [Thread-13] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter
+				-Unregistering JMX-exposed beans on shutdown
+2018-05-17 18:02:33.027 [Thread-13] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter
+				-Unregistering JMX-exposed beans
+2018-05-17 18:02:33.029 [Thread-13] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				-Unregistering JMX-exposed beans on shutdown
+2018-05-17 18:02:33.029 [Thread-13] INFO  o.s.j.e.a.AnnotationMBeanExporter
+				-Unregistering JMX-exposed beans
+2018-05-17 18:02:33.031 [Thread-13] INFO  c.n.e.DefaultEurekaServerContext
+				-Shutting down ...
+2018-05-17 18:02:33.036 [Thread-13] INFO  c.n.e.DefaultEurekaServerContext
+				-Shut down

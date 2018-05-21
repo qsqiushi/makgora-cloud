@@ -5,6 +5,7 @@ import java.util.Map;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.redisson.api.RLock;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -15,6 +16,8 @@ import com.arthur.sys.domain.ConstantExample;
 import com.arthur.sys.mapper.ConstantMapper;
 import com.arthur.sys.mapper.PrimaryKeyMapper;
 import com.arthur.sys.properties.ConfigProperties;
+import com.arthur.sys.properties.RedissonProperties;
+import com.arthur.sys.service.impl.RedissonManagerServiceImpl;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -34,7 +37,25 @@ public class ServiceTest {
   @Autowired
   private RedisTemplate<String,Map<String,String>> redisMapTemplate;
   
+  @Autowired
+  private  RedissonManagerServiceImpl  redissonManagerService;
+  
+  
+  @Autowired
+  private RedissonProperties redissonProperties;
+  
   @Test
+  public void test3() {
+    System.out.println(redissonProperties.getAddress());
+    
+    RLock rLock=  redissonManagerService.lock("123123",20);
+    RLock rLock2=  redissonManagerService.lock("123123",20);
+    System.out.println(rLock.isExists());
+    System.out.println(rLock2.isExists());
+    redissonManagerService.unlock("123123");
+  }
+  
+  
   public void testRedis() {
     System.out.println(redisTemplate==null);
     System.out.println(redisMapTemplate==null);

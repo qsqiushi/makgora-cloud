@@ -1,5 +1,8 @@
 package com.arthur.service.test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.apache.curator.RetryPolicy;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
@@ -10,6 +13,9 @@ public class MainTest {
   
   
   public static void main(String[] args) throws Exception {  
+    List<String> list = new ArrayList<String>();
+    list.add("");
+    System.out.println(list.size());
         
       //操作失败重试机制 1000毫秒间隔 重试3次  
       RetryPolicy retryPolicy = new ExponentialBackoffRetry(1000, 3);  
