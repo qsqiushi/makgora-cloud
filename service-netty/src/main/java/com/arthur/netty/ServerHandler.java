@@ -21,7 +21,7 @@ public class ServerHandler extends SimpleChannelInboundHandler<String> {
     private static final Logger log = LoggerFactory.getLogger(ServerHandler.class);
 
     @Override
-    public void channelRead0(ChannelHandlerContext ctx, String msg) throws Exception {
+    public void messageReceived(ChannelHandlerContext ctx, String msg) throws Exception {
         log.info("client msg:" + msg);
         String clientIdToLong = ctx.channel().id().asLongText();
         log.info("client long id:" + clientIdToLong);
